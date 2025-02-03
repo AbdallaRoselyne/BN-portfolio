@@ -13,7 +13,6 @@ const Experience = () => {
         "Conducted over 15 expert interviews and literature reviews to assess renewable energy integration strategies, delivering a comprehensive report on sustainable energy practices that informed stakeholders about viable pathways to reduce carbon emissions by 20% by 2030.",
       ],
     },
-
     {
       image: "./extern.png",
       title: "Freshwater and Community Conservation Extern",
@@ -25,7 +24,6 @@ const Experience = () => {
         "Collaborated with local authorities and community groups to implement sustainable uses for water hyacinth, such as biogas production and basket crafting, empowering 50+ households with alternative livelihoods while preserving the lake's ecosystem and biodiversity.",
       ],
     },
-
     {
       image: "./farm.png",
       title: "Solar PV System Design Project Intern",
@@ -37,7 +35,6 @@ const Experience = () => {
         "Collaborated with a multidisciplinary team during site visits to inspect installations and ensure compliance with safety codes, contributing to the successful commissioning of a solar system projected to save $8,000 annually in energy costs.",
       ],
     },
-
     {
       image: "./kplc.png",
       title: "Operation & Maintenance Intern",
@@ -54,7 +51,7 @@ const Experience = () => {
   return (
     <div className="container mx-auto px-4 py-8 pt-20">
       <div className="text-center pb-10">
-        <span className="text-4xl font-bold text-gray-50 block ">“</span>
+        <span className="text-4xl font-bold text-gray-50 block">“</span>
         <p className="text-lg text-black font-bold">
           "Below is a collection of my experiences that showcase my passion for efficiency, creativity, and meaningful impact."
         </p>
@@ -66,11 +63,11 @@ const Experience = () => {
           className="flex flex-col md:flex-row bg-cover bg-center bg-gradient-to-r from-blue-100 via-teal-100 to-lime-100 animate-gradient shadow-lg rounded-lg overflow-hidden p-6 mb-6 border border-gray-200"
         >
           {/* Left side - Project Image */}
-          <div className="md:w-1/3 w-full flex justify-center">
+          <div className="md:w-1/3 w-full flex justify-center mb-4 md:mb-0">
             <img
               src={project.image}
               alt={project.title}
-              className="h-70 w-70 object-cover rounded-lg"
+              className="h-48 w-48 md:h-64 md:w-64 object-cover rounded-lg"
             />
           </div>
 
